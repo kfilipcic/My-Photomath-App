@@ -22,6 +22,8 @@ You can then open the index page of the server which is the only site of this We
   <img src="https://raw.githubusercontent.com/kfilipcic/My-Photomath-App/main/web_app2.png" width="300" height="500"/>
 </p>
 
+NOTE: If you're using Chrome and running the server on a "unsecure site" (eg. localhost, non HTTPS server), follow the following guide to make a exception for the website: https://medium.com/@Carmichaelize/enabling-the-microphone-camera-in-chrome-for-local-unsecure-origins-9c90c3149339 . Otherwise the browser won't allow permissions for the camera.
+
 ## Training the model
 
 If you wish to train the model, you need to have folders containing training data which are named exactly as the class names (which can be found in `training_script.py`). Then, you can run the command `python training_script.py model_name.h5`, where "model_name.h5" is the desired name of the output trained model.
