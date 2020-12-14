@@ -18,8 +18,8 @@ Run the following command in terminal `python flask_server.py`, assuming you are
 You can then open the index page of the server which is the only site of this Web app. You simply just press the CALCULATE button to calculate the expression from camera, wait for a bit and the result should appear on the screen, along with the found math expression.
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/kfilipcic/My-Photomath-App/main/web_app1.png" width="270" height="480"/>
-  <img src="https://raw.githubusercontent.com/kfilipcic/My-Photomath-App/main/web_app2.png" width="270" height="480"/>
+  <img src="https://raw.githubusercontent.com/kfilipcic/My-Photomath-App/main/web_app1.png" width="300" height="500"/>
+  <img src="https://raw.githubusercontent.com/kfilipcic/My-Photomath-App/main/web_app2.png" width="300" height="500"/>
 </p>
 
 ## Training the model
