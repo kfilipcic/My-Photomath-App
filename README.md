@@ -17,6 +17,9 @@ This project includes a Web Application with a simple UI where a user can their 
 Run the following command in terminal `python flask_server.py`, assuming you are currently in the directory of the cloned repository. The command will run the server on localhost, if you wish to change the server address then change the `app.run()` arguments in `flask_server.py`.
 You can then open the index page of the server which is the only site of this Web app. You simply just press the CALCULATE button to calculate the expression from camera, wait for a bit and the result should appear on the screen, along with the found math expression.
 
+![alt text](https://raw.githubusercontent.com/kfilipcic/My-Photomath-App/main/web_app1.png)
+![alt text](https://raw.githubusercontent.com/kfilipcic/My-Photomath-App/main/web_app2.png)
+
 ## Training the model
 
 If you wish to train the model, you need to have folders containing training data which are named exactly as the class names (which can be found in `training_script.py`). Then, you can run the command `python training_script.py model_name.h5`, where "model_name.h5" is the desired name of the output trained model.
