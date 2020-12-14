@@ -20,6 +20,11 @@ You can then open the index page of the server which is the only site of this We
 ![alt text](https://raw.githubusercontent.com/kfilipcic/My-Photomath-App/main/web_app1.png)
 ![alt text](https://raw.githubusercontent.com/kfilipcic/My-Photomath-App/main/web_app2.png)
 
+<p float="left">
+  <img src="https://raw.githubusercontent.com/kfilipcic/My-Photomath-App/main/web_app1.png" width="100" />
+  <img src="https://raw.githubusercontent.com/kfilipcic/My-Photomath-App/main/web_app2.png" width="100" />
+</p>
+
 ## Training the model
 
 If you wish to train the model, you need to have folders containing training data which are named exactly as the class names (which can be found in `training_script.py`). Then, you can run the command `python training_script.py model_name.h5`, where "model_name.h5" is the desired name of the output trained model.
