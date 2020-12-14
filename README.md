@@ -2,7 +2,7 @@
 My try in making an app which reads a math expression as an input and gives out the result.
 
 ## How it works?
-More details about how the actual code works can be found in Jupyter Notebook file in this repository. Comments through code also explain certain functions and their significance.
+More details about how the actual code works can be found in Jupyter Notebook files of this repository. Comments through code also explain certain functions and their significance.
 
 ## Requirements
 1. CUDA 10.1
