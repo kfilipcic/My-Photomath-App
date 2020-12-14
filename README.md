@@ -5,7 +5,7 @@ My try in making an app which reads a math expression as an input and gives out 
 More details about how the actual code works can be found in Jupyter Notebook files of this repository. Comments through code also explain certain functions and their significance.
 
 ## Requirements
-1. CUDA 10.1
+1. CUDA 10.1 (higher versions should also work)
 2. Python 3.8, along with libraries listed in `requirements.txt`.
 
 ## Using the Web Application
