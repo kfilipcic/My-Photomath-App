@@ -34,3 +34,9 @@ The dataset used for training the model can be found here: https://drive.google.
 
 You can make predictions using the command `python prediction_script.py input_image.jpg` where input_image.jpg is the name of the desired input file image. The model used for prediction can be changed by changing the `h5_filename` string accordingly in the `prediction_script.py` file.
 Assuming the terminal is currently in the cloned repository folder, you can run the following command: `python prediction_script.py ./image_examples/example3_with_all_chars.jpg`. The image_examples folder contains a few input images which work with the model located in the repository.
+
+## Future improvements
+
+To make the solution better and more robust, the most important thing would be to improve current solution of cleaning noise from input image. Finding only external contours on (cleaned) input image seems to work fine in recognizing characters, but perhaps there is an even better solution I've haven't researched yet.
+
+As far as the character classification, the current Convolutional Neural Network model using Stochastic Gradient Descent as an optimizer seems to work just fine for this problem. Improving the previous problem of cleaning noise from input, the classification would also improve. However, improving the training set would also make a significant difference. For example, the '2' class has ~30000 samples, while '*' (times) class has as little as 3299 samples. Making the sample size more proportional across all classes would make the model perform better. The samples themselves are also not perfect.
